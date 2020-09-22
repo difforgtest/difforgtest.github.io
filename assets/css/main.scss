@@ -408,9 +408,9 @@
 .modGallery ul.gallery li.hidden {
   opacity: 0.1;
 }
-///.modGallery ul.gallery.seperated li {
-///  padding: 3em;
-///}
+.modGallery ul.gallery.seperated li {
+  padding: 3em;
+}
 .modIconText .icon-text-circle {
   text-align: center;
 }
@@ -489,6 +489,9 @@
   .modGallery ul.gallery img{
     padding:1.5rem;
    }
+  .modGallery ul.gallery.seperated li {
+    padding: 0em;
+  }
 }
 
 .carousel-item {
