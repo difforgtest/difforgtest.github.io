@@ -452,20 +452,9 @@
 }
 
 
-
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials      
 
-
-.page__hero--overlay{
-  height: 30em;
-}
-
-///.mod.modGallery .row ///.gallery.large-block-grid-4.medium-block-grid-3.seperated.small-block-grid-2 a, ///a:hover, a:focus, a:active, a:link {
-///  text-decoration: none;
-///  color: transparent;
-///}
 
 .mod.modGallery a:link {
   text-decoration: none;
@@ -498,7 +487,7 @@
 
 .carousel-item {
   height: 100vh;
-  max-height: 30em;
+  max-height: 35em;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
