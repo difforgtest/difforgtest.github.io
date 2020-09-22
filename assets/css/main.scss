@@ -408,9 +408,9 @@
 .modGallery ul.gallery li.hidden {
   opacity: 0.1;
 }
-.modGallery ul.gallery.seperated li {
-  padding: 3em;
-}
+///.modGallery ul.gallery.seperated li {
+///  padding: 3em;
+///}
 .modIconText .icon-text-circle {
   text-align: center;
 }
@@ -487,7 +487,7 @@
 
 @media only screen and (max-width: 30em){
   .modGallery ul.gallery img{
-  padding:0px
+    padding:1rem;
    }
 }
 
